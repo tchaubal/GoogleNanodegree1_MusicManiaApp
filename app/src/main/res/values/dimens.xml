@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="textSize">15sp</dimen>
+    <dimen name="specialCase_textSize">25sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textView_textSize">20sp</dimen>
+    <dimen name="textView_paddingSize">20dp</dimen>
+    <dimen name="specialCase_paddingSize">30dp</dimen>
+    <dimen name="specialCase_paddingSize2">25dp</dimen>
+</resources>

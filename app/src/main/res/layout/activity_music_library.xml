@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/fab_margin"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    android:background="@color/menu1BGColor"
+    tools:context="com.example.tanushreechaubal.musicmania.MusicLibraryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_labelMusicLibrary"
+        android:text="@string/music_library"
+        android:textSize="@dimen/specialCase_textSize"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_musicLibrary"
+        android:layout_below="@+id/textView_labelMusicLibrary"
+        android:text="@string/textView_musicLibraryActivity_details"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/viewMainScreen_Button2"
+        android:layout_below="@id/textView_musicLibrary"
+        android:text="@string/viewArtistAlbum"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/textView_paddingSize"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"
+        android:paddingLeft="@dimen/textView_paddingSize"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewMainScreen_Button2"
+        android:id="@+id/musicLibrary_listView">
+    </ListView>
+
+</RelativeLayout>

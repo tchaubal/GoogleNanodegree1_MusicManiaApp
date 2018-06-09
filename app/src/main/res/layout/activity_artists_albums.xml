@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="@dimen/fab_margin"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/artist1BGColor"
+    tools:context="com.example.tanushreechaubal.musicmania.ArtistsAlbumsActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_labelArtistsAlbums"
+            android:text="@string/artists_albums"
+            android:textSize="@dimen/specialCase_textSize"
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/textView_artistsAlbums_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_labelArtistsAlbums"
+            android:text="@string/textView_artistsAlbumsActivity_details"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/textSize" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/viewMainScreen_Button"
+            android:layout_below="@id/textView_artistsAlbums_details"
+            android:text="@string/viewMainMenu"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/textView_paddingSize"
+            android:paddingRight="@dimen/textView_paddingSize"
+            android:paddingBottom="@dimen/textView_paddingSize"
+            android:paddingLeft="@dimen/textView_paddingSize"/>
+
+        <ListView
+            android:id="@+id/artistAlbums_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/viewMainScreen_Button">
+
+        </ListView>
+
+</RelativeLayout>
+

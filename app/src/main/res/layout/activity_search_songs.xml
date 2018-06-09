@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/fab_margin"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    android:background="@color/menu3BGColor"
+    tools:context="com.example.tanushreechaubal.musicmania.SearchSongsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_labelSearchMusic"
+        android:text="@string/search_songs"
+        android:textSize="@dimen/specialCase_textSize"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_labelSearchMusic"
+        android:id="@+id/music_searchView">
+
+    </SearchView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music_searchView"
+        android:id="@+id/textView_searchMusic"
+        android:text="@string/textView_searchMusicActivity_details"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/viewMainScreen_Button3"
+        android:text="@string/viewMainMenu"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/textView_paddingSize"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"
+        android:paddingLeft="@dimen/textView_paddingSize"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/viewMainScreen_Button3"
+        android:layout_toRightOf="@+id/viewMainScreen_Button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/viewMusicLibrary_Button"
+        android:text="@string/viewMusicLibrary"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/textView_paddingSize"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"
+        android:paddingLeft="@dimen/textView_paddingSize"/>
+
+</RelativeLayout>

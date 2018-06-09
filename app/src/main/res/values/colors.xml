@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f95a45</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="textColor">#FFFF</color>
+    <color name="colorAccent">#f95a45</color>
+    <color name="textViewColorForMenu1">#21c40f</color>
+    <color name="textViewColorForMenu2">#f57504</color>
+    <color name="textViewColorForMenu3">#8532cf</color>
+    <color name="textViewColorForMenu4">#06abf2</color>
+    <color name="textViewColorForMenu5">#1a1d99</color>
+    <color name="artist1BGColor">#a1d9f1</color>
+    <color name="menu1BGColor">#7ffa88</color>
+    <color name="menu3BGColor">#d094fa</color>
+    <color name="menu4BGColor">#a8aaf9</color>
+    <color name="payment">#f9a55b</color>
+
+</resources>

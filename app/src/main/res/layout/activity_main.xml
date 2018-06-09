@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.tanushreechaubal.musicmania.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeMessage"
+        android:text="@string/welcomeMessage"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingTop="@dimen/textView_paddingSize"
+        android:paddingLeft="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"
+        android:background="@color/textViewColorForMenu2"
+        android:textSize="@dimen/specialCase_textSize" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewMainPage"
+            android:contentDescription="@string/imageMainScreen"
+            android:src="@drawable/music_streaming_img"
+            android:paddingBottom="@dimen/textView_paddingSize"
+            android:paddingTop="@dimen/textView_paddingSize"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textViewColorForMenu1"
+        android:id="@+id/textView_musicLibrary"
+        android:text="@string/music_library"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="@dimen/textView_textSize"
+        android:gravity="center"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingTop="@dimen/specialCase_paddingSize2"
+        android:paddingLeft="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textViewColorForMenu4"
+        android:id="@+id/textView_artistsAlbums"
+        android:text="@string/artists_albums"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="@dimen/textView_textSize"
+        android:gravity="center"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingTop="@dimen/specialCase_paddingSize2"
+        android:paddingLeft="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textViewColorForMenu3"
+        android:id="@+id/textView_searchSongs"
+        android:text="@string/search_songs"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="@dimen/textView_textSize"
+        android:gravity="center"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingTop="@dimen/specialCase_paddingSize2"
+        android:paddingLeft="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/textView_paddingSize"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textViewColorForMenu5"
+        android:id="@+id/textView_store"
+        android:text="@string/store"
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="@dimen/textView_textSize"
+        android:gravity="center"
+        android:paddingRight="@dimen/textView_paddingSize"
+        android:paddingTop="@dimen/specialCase_paddingSize"
+        android:paddingLeft="@dimen/textView_paddingSize"
+        android:paddingBottom="@dimen/specialCase_paddingSize"/>
+
+</LinearLayout>
+
+</ScrollView>

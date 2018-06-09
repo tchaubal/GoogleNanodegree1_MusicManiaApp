@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Music Mania</string>
+    <string name="welcomeMessage">Welcome to Music Mania, your seamless music streaming app!</string>
+    <string name="music_library">Music Library</string>
+    <string name="artists_albums">Artists and Albums</string>
+    <string name="search_songs">Search Songs</string>
+    <string name="store"> Music Store</string>
+    <string name="imageMainScreen">This is a google image.</string>
+    <string name="libraryActivity">Library</string>
+    <string name="searchSongsActivity">Search</string>
+    <string name="buySongsActivity">Browse and Buy</string>
+    <string name="payment">Set Up Payment</string>
+    <string name="textView_musicLibraryActivity_details">
+        \nThis activity will display a list of songs available.
+        \nI have used a set of hardcoded dummy data to display the list of songs for now. Will be accessing songs stored in the device Music Player.
+        \nI have also added dummy Toast messages to OnClick events for each of the list items.
+        \nOn clicking each item in the list, the corresponding song will be played.
+        \nThe user will have the ability to "play", "stop", "pause" and "shuffle" the songs.\n
+    </string>
+    <string name="textView_artistsAlbumsActivity_details">
+        \nThis activity will display a list of artists and albums corresponding to the songs available.
+        \nI have used a set of hardcoded dummy data to display the list of songs for now. Will be changing it later.
+        \nOn clicking each item in the list, a new activity with artist and album details will be displayed.
+        \nFor now I have added intents ONLY FOR FIRST THREE artists. The other intents will be added later for other artists.\n
+    </string>
+    <string name="textView_searchMusicActivity_details">
+        \nThis activity will give the user ability to search a song/artist/album from the list available.
+        \n\nThe user can enter the name of the song/artist/album and the appropriate search results will be displayed.
+    </string>
+    <string name="textView_storeActivity_details">
+        \nThis activity will provide the ability to the user to browse songs and buy them.
+        \n\nI will use an implicit intent to connect to Google Play Store and browse songs.
+        \n\nIt will be possible to add selected songs to "cart" and proceed to set up payment and then pay.
+        \n\nThe Set Up Payment button will lead to Payment activity.
+    </string>
+    <string name="textView_paymentActivity_details">
+        \nFocus will be on setting up payment method for buying music online.
+        \n\nI found two APIs for setting up payments- Google Pay API and Stripe API- have not worked with either of them.
+        \n\nI have decided to use the Google Pay API (https://developers.google.com/payments/setup) for setting up payments through my music player app.
+        \n\nSetup is straightforward enough- adding gradle dependencies. Tutorial found here: https://developers.google.com/payments/tutorial.
+    </string>
+    <string name="artistAlbumDetails">Artist and Album Details</string>
+    <string name="artistAlbumDetailsContent"> Placeholder for Artist and Album Details</string>
+    <string name="viewMusicLibrary">View Music Library</string>
+    <string name="viewMainMenu">View Main Menu</string>
+    <string name="viewPaymentOptions">View Payment Options</string>
+    <string name="viewArtistAlbum">View Artists/Albums</string>
+    <string-array name="listOfSongs">
+        <item>Summer Of 69</item>
+        <item>Another Day In Paradise</item>
+        <item>Carnival of Rust</item>
+        <item>Hotel California</item>
+        <item>Black Or White</item>
+        <item>Dancing Queen</item>
+        <item>Rasputin</item>
+        <item>Best Friend</item>
+        <item>Starboy</item>
+        <item>In The End</item>
+        <item>Radioactive</item>
+        <item>Titanium</item>
+        <item>Animals</item>
+    </string-array>
+    <string name="song1">Plays Song 1</string>
+    <string name="song2">Plays Song 2</string>
+    <string name="song3">Plays Song 3</string>
+    <string name="song4">Plays Song 4</string>
+    <string name="song5">Plays Song 5</string>
+    <string name="song6">Plays Song 6</string>
+    <string name="song7">Plays Song 7</string>
+    <string name="song8">Plays Song 8</string>
+    <string name="song9">Plays Song 9</string>
+    <string name="song10">Plays Song 10</string>
+    <string name="song11">Plays Song 11</string>
+    <string name="song12">Plays Song 12</string>
+    <string name="song13">Plays Song 13</string>
+    <string name="song14">Plays Song 14</string>
+    <string-array name="toastMessageForSongNumberPlaying">
+        <item>@string/song1</item>
+        <item>@string/song2</item>
+        <item>@string/song3</item>
+        <item>@string/song4</item>
+        <item>@string/song5</item>
+        <item>@string/song6</item>
+        <item>@string/song7</item>
+        <item>@string/song8</item>
+        <item>@string/song9</item>
+        <item>@string/song10</item>
+        <item>@string/song11</item>
+        <item>@string/song12</item>
+        <item>@string/song13</item>
+        <item>@string/song14</item>
+    </string-array>
+    <string-array name="listOfArtistsAndAlbums">
+        <item>Bryan Adams / Reckless</item>
+        <item>Phil Collins / ..But Seriously</item>
+        <item>Poets of the Fall / Carnival of Rust</item>
+        <item>Eagles / Hotel California</item>
+        <item>Michael Jackson / This is it</item>
+        <item>ABBA / Arrival</item>
+        <item>Boney M / Nightflight to Venus</item>
+        <item>Sofi Tukker / FIFA 18 Soundtrack</item>
+        <item>The Weeknd / Starboy</item>
+        <item>Linkin Park / Hybrid Theory</item>
+        <item>Imagine Dragons / Night Visions</item>
+        <item>Sia / Nothing but the Beat</item>
+        <item>Maroon 5 / V</item>
+    </string-array>
+</resources>
